@@ -58,6 +58,7 @@ Then the application shoul be on: http://localhost:3000
 Now you'll be able to see your registers. But first :grin: you need to download an app in your cellphone. The name of the app is Expo and you can found the link here: 
 
 **IOS** https://apps.apple.com/br/app/expo-client/id982107779
+
 **Android** https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
 
 Go to the terminal again and run inside the **mobile** folder:
