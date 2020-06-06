@@ -123,6 +123,7 @@ I didn't do it alone, so, let's give some credits :pray:
 ### Contact
 
 **LinkedIn:** https://www.linkedin.com/in/matheusfprado/
+
 **E-mail:** mtfprado@outlook.com
 
 
