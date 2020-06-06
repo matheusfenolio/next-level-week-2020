@@ -23,6 +23,20 @@ Here we'll install the expo. Open your terminal and run:
 $ yarn global add expo
 ```
 
+### Repository
+
+Before everthing, let's clone the project. Go to your terminal and execute the follow command:
+
+```
+$ git clone https://github.com/matheusfenolio/next-level-week-2020.git
+```
+
+Now go to the folder created:
+
+```
+$ cd next-level-week-2020
+```
+
 ### server
 
 Developed with Node.js, it's a endpoint where you'll get and store all the data. In this repository I already uploaded the database file, but, if you want to create from the beginning just execute this commands inside the **server** folder:
@@ -108,6 +122,7 @@ I didn't do it alone, so, let's give some credits :pray:
 
 ### Contact
 
+**LinkedIn:** https://www.linkedin.com/in/matheusfprado/
 **E-mail:** mtfprado@outlook.com
 
 
