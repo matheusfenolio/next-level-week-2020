@@ -134,4 +134,6 @@ I didn't do it alone, so, let's give some credits :pray:
 
 ![](Web.gif)
 
+![](Mobile.gif)
+
 
