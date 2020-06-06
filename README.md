@@ -97,6 +97,15 @@ And yes, you right! I modified some details. Following there, I'll list all modi
 - In the page Details instead of just write the categories, I printed the imagem of them.
 - Created a new button to redirect you to your map app, where will already be with a route selected.
 
+### References
+
+I didn't do it alone, so, let's give some credits :pray:
+
+- **Rocketseat:** https://rocketseat.com.br/
+- **GeoDataSource:** https://www.geodatasource.com/developers/javascript
+- **React Native Picker Select:** https://github.com/lawnstarter/react-native-picker-select
+- **React Native Map Link:** https://github.com/tschoffelen/react-native-map-link
+
 ### Contact
 
 **E-mail:** mtfprado@outlook.com
