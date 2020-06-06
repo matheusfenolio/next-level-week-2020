@@ -19,7 +19,7 @@ To install the Yarn, go to https://classic.yarnpkg.com/en/docs/install/#debian-s
 
 Here we'll install the expo. Open your terminal and run:
 
-```
+```shell
 $ yarn global add expo
 ```
 
@@ -27,13 +27,13 @@ $ yarn global add expo
 
 Before everthing, let's clone the project. Go to your terminal and execute the follow command:
 
-```
+```shell
 $ git clone https://github.com/matheusfenolio/next-level-week-2020.git
 ```
 
 Now go to the folder created:
 
-```
+```shell
 $ cd next-level-week-2020
 ```
 
@@ -41,16 +41,20 @@ $ cd next-level-week-2020
 
 Developed with Node.js, it's a endpoint where you'll get and store all the data. In this repository I already uploaded the database file, but, if you want to create from the beginning just execute this commands inside the **server** folder:
 
-```
+```shell
 $ yarn migrate
+```
 
+then
+
+```shell
 $ yarn seed
 ```
 
 Now, les's put it to run :muscle:
 Still inside the folder, execute this command:
 
-```
+```shell
 $ yarn dev
 ```
 
@@ -61,7 +65,7 @@ You server will run in http://localhost:3333
 This the front end of the application, but not all of it. In this part you'll be able to create new points of recycle collect.
 In your terminal run inside the **web** folder:
 
-```
+```shell
 $ yarn start
 ```
 
@@ -77,8 +81,8 @@ Now you'll be able to see your registers. But first :grin: you need to download 
 
 Go to the terminal again and run inside the **mobile** folder:
 
-```
-yarn start
+```shell
+$ yarn start
 ```
 
 You'll be redirect to a web page where you can see a QRCode. Now, scan the QRCode with your cellphone.
