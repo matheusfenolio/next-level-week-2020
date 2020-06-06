@@ -138,6 +138,3 @@ I didn't do it alone, so, let's give some credits :pray:
   <img src="Mobile.gif">
 </p>
 
-![](Mobile.gif)
-
-
