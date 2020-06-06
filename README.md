@@ -135,7 +135,7 @@ I didn't do it alone, so, let's give some credits :pray:
 ![](Web.gif)
 
 <p align="center">
-  <img width="460" height="300" src="Mobile.gif">
+  <img src="Mobile.gif">
 </p>
 
 ![](Mobile.gif)
