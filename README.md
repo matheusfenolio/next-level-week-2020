@@ -13,7 +13,7 @@ Go to: https://nodejs.org/en/download/ and download the LTS version of Node.js. 
 ### Yarn
 
 I used the Yarn to handle with the packages, but you can use the NPM as well.
-To install the Yarn, go to https://classic.yarnpkg.com/en/docs/install/#debian-stable and follow the instructions.
+To install the Yarn, go to https://classic.yarnpkg.com/en/docs/install and follow the instructions.
 
 ### Expo
 
