@@ -99,7 +99,7 @@ And yes, you right! I modified some details. Following there, I'll list all modi
 
 ### Contact
 
-####E-mail: mtfprado@outlook.com
+**E-mail:** mtfprado@outlook.com
 
 
 
