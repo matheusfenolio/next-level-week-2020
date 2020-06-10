@@ -1,23 +1,23 @@
 # next-level-week-2020
 
-Hello, this is my project created during the Next Level Week 2020. I used TypeScript for all of them. Here you'll see 3 folders, server, web and mobile. You can test all them, just follow the steps :wink:
+Hello, this is a project created using TypeScript during the Next Level Week 2020. Here you'll see 3 folders: server, web and mobile. You can test all of them, to do this just follow steps below :wink:
 
 ## Ecoleta
 
-Ecoleta is a tool to facilitate people to find recycle points based in categories and connect those people to the collectors.
+Ecoleta is a tool to connect people and garbage collectors.
 
 ### Node.js installation
 
-Go to: https://nodejs.org/en/download/ and download the LTS version of Node.js. We'll you him to run all this project.
+Go to: https://nodejs.org/en/download/ and download the LTS version of Node.js. We'll you need him to run this project.
 
 ### Yarn
 
-I used the Yarn to handle with the packages, but you can use the NPM as well.
-To install the Yarn, go to https://classic.yarnpkg.com/en/docs/install and follow the instructions.
+I used Yarn for package handling, but you can use NPM as well.
+To install Yarn, go to https://classic.yarnpkg.com/en/docs/install and follow the instructions.
 
 ### Expo
 
-Here we'll install the expo. Open your terminal and run:
+Here we'll install expo. Open your terminal and run:
 
 ```shell
 $ yarn global add expo
@@ -25,13 +25,13 @@ $ yarn global add expo
 
 ### Repository
 
-Before everthing, let's clone the project. Go to your terminal and execute the follow command:
+After that clone the project. Go to your terminal and execute the following command:
 
 ```shell
 $ git clone https://github.com/matheusfenolio/next-level-week-2020.git
 ```
 
-Now go to the folder created:
+Now go to the downloaded folder:
 
 ```shell
 $ cd next-level-week-2020
@@ -39,7 +39,7 @@ $ cd next-level-week-2020
 
 ### server
 
-Developed with Node.js, it's a endpoint where you'll get and store all the data. In this repository I already uploaded the database file, but, if you want to create from the beginning just execute this commands inside the **server** folder:
+Developed with Node.js, it's an endpoint where you'll get and store all the data. In this repository I already uploaded the database file, but, if you want to create a new database execute the commands inside the **server** folder:
 
 ```shell
 $ yarn migrate
@@ -51,69 +51,69 @@ then
 $ yarn seed
 ```
 
-Now, les's put it to run :muscle:
+Now, let's put it to run :muscle:
 Still inside the folder, execute this command:
 
 ```shell
 $ yarn dev
 ```
 
-You server will run in http://localhost:3333
+Your server will run at http://localhost:3333
 
 ### web
 
-This the front end of the application, but not all of it. In this part you'll be able to create new points of recycle collect.
+This a part of the front-end of the application. In this part you'll be able to create new recycling points.
 In your terminal run inside the **web** folder:
 
 ```shell
 $ yarn start
 ```
 
-Then the application shoul be on: http://localhost:3000
+After the server is ready, the application should be accessed at: http://localhost:3000
 
 ### mobile
 
-Now you'll be able to see your registers. But first :grin: you need to download an app in your cellphone. The name of the app is Expo and you can found the link here: 
+Now you'll be able to see your registers. But first :grin: you need to download an app in your phone. The name of the app is Expo and you can find the link here: 
 
 **IOS** https://apps.apple.com/br/app/expo-client/id982107779
 
 **Android** https://play.google.com/store/apps/details?id=host.exp.exponent&hl=en
 
-Go to the terminal again and run inside the **mobile** folder:
+Run the terminal inside of the **mobile** folder:
 
 ```shell
 $ yarn start
 ```
 
-You'll be redirect to a web page where you can see a QRCode. Now, scan the QRCode with your cellphone.
+You'll be redirect to a web page where you can see a QRCode. Now, scan the QRCode with your phone.
 
-**Warning**: Android's expo app you have the option too scan the code from there, but in IOS you should open your camera and scan from there.
+**Warning**: In Android's expo app you have the option too scan the code from there. In IOS you should open your camera and scan from there.
 
-Now, you should be redirect to the app. Wait it load and then enjoy! :tada:
+Now, you should be redirected to the app. Wait until it loads and then enjoy! :tada:
 
 ### Notes
 
-If you know how NLW was, you probably realize of this project is not exactly equal of the presented in the course.
-And yes, you right! I modified some details. Following there, I'll list all modifications:
+If you know how NLW was, you probably notice that this project is not exactly equal to the one presented in the course. and yes, you're right! I changed some details. 
+Below there are lists of all changes:
 
 
 #### server
 
-- Backend handle if the 'sigla' and 'nome' from states.
-- Separated files to IBGE api.
-- Sending the image url to a specific point too.
+- Backend can now handle with the 'sigla' and 'nome' from IBGE's api.
+- Separated files for IBGE's api methods.
+- Sends the urls catergories images to a specific point.
 
 #### web
 
-- Imlemented the finish screen, where you can see if the register was stored.
+- Implemented the final screen, where you can see if the register was stored.
 
 #### mobile
 
-- Separated files to IBGE api.
+- Separated files for IBGE's api.
 - Picker selector for 'Estado' and 'Cidade'.
-- Created a method to calculate the distance between the user to the point. (It isn't precisable, but it will able me to add a new feature: put a range filter)
-- In the page Details instead of just write the categories, I printed the imagem of them.
-- Created a new button to redirect you to your map app, where will already be with a route selected.
+- Created a method to calculate the distance between the user and the recycling point. (It isn't accurate, but it will enable me to add a new feature: Create a range filter)
+- In the page Details instead of just writing the categories, I show images of them.
+- Created a new button to redirect you to your map app, where there will be a route created.
 
 ### References
 
