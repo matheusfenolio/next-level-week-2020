@@ -123,6 +123,7 @@ I didn't do it alone, so, let's give some credits :pray:
 - **GeoDataSource:** https://www.geodatasource.com/developers/javascript
 - **React Native Picker Select:** https://github.com/lawnstarter/react-native-picker-select
 - **React Native Map Link:** https://github.com/tschoffelen/react-native-map-link
+- **Luis Gustavo Fernandes Ferreira (English advisor):** https://github.com/lgpinguim
 
 ### Contact
 
